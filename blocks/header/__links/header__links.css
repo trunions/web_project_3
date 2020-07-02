@@ -1,0 +1,4 @@
+.header__links{
+    display: grid;
+    grid-template: 1fr/1fr 1fr;
+    grid-gap: 18px;
