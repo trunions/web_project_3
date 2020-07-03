@@ -2,3 +2,38 @@
     font-family:"Inter";
     src: url(../../vendor/fonts/Inter-Regular.otf);
 }
+
+@font-face{
+    font-family:"Inter Bold";
+    src: url(../../vendor/fonts/Inter-Bold.otf);
+}
+
+@font-face{
+    font-family:"Inter Extrabold";
+    src: url(../../vendor/fonts/Inter-ExtraBold.otf);
+}
+
+@font-face{
+    font-family:"Inter Light";
+    src: url(../../vendor/fonts/Inter-Light.otf);
+}
+
+@font-face{
+    font-family:"Inter Extralight";
+    src: url(../../vendor/fonts/Inter-ExtraLight.otf);
+}
+
+@font-face{
+    font-family:"Inter Medium";
+    src: url(../../vendor/fonts/Inter-Medium.otf);
+}
+
+@font-face{
+    font-family:"Inter Thin";
+    src: url(../../vendor/fonts/Inter-Thin.otf);
+}
+
+@font-face{
+    font-family:"Inter Verythin";
+    src: url(../../vendor/fonts/Inter-V.otf);
+}

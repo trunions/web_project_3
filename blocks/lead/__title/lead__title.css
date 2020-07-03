@@ -3,7 +3,8 @@
   margin: 0 auto 3% auto;
   max-width: 720px;
   text-align: center;
-  line-height:100px;   
+  line-height:100px;
+  font-family: "inter extrabold", sans-serif;   
 }
 
 @media screen and (max-width:425px){
