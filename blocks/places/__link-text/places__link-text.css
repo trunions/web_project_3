@@ -1,0 +1,10 @@
+.places__link-text{
+    grid-column: 2;
+    grid-row: 1;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2.5px;
+    color: #AAAAAA;
+    margin-top: 31px;
+}

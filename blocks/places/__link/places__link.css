@@ -1,0 +1,9 @@
+.places__link{
+    grid-column: 2;
+    grid-row: 1;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 122%;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}

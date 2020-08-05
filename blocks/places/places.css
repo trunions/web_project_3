@@ -1,0 +1,13 @@
+@import url(./__place/places__place.css);
+@import url(./__place/__place-two-lines/places__place-two-lines.css);
+@import url(./__title/places__title.css);
+@import url(./__link-text/places__link-text.css);
+@import url(./__link/places__link.css);
+@import url(./__text/places__text.css);
+@import url(./__image/places__image.css);
+@import url(./__info/places__info.css);
+
+
+.places{
+    margin: 100px 148px 80px 148px;
+}

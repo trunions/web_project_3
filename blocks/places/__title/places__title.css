@@ -1,0 +1,11 @@
+.places__title{
+    font-family: "Inter-ExtraBold", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 0;
+}
+}
