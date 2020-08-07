@@ -1,0 +1,9 @@
+.cover__text{
+  font-size: 18px;
+  line-height: 22px;
+  margin:0;
+  width:320px;
+  text-align:center;
+  position: relative;
+  z-index: 1;
+}

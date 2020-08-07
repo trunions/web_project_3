@@ -1,39 +1,20 @@
 @font-face{
     font-family:"Inter";
-    src: url(../../vendor/fonts/Inter-Regular.otf);
+    font-weight:400;
+    src: url(./Inter-400.woff) format("woff"),
+      url(./Inter-400.woff2) format("woff2");
 }
 
 @font-face{
-    font-family:"Inter Bold";
-    src: url(../../vendor/fonts/Inter-Bold.otf);
+    font-family:"Inter";
+    font-weight:700;
+    src: url(./Inter-700.woff) format("woff"),
+      url(./Inter-700.woff2) format("woff2");
 }
 
 @font-face{
-    font-family:"Inter Extrabold";
-    src: url(../../vendor/fonts/Inter-ExtraBold.otf);
-}
-
-@font-face{
-    font-family:"Inter Light";
-    src: url(../../vendor/fonts/Inter-Light.otf);
-}
-
-@font-face{
-    font-family:"Inter Extralight";
-    src: url(../../vendor/fonts/Inter-ExtraLight.otf);
-}
-
-@font-face{
-    font-family:"Inter Medium";
-    src: url(../../vendor/fonts/Inter-Medium.otf);
-}
-
-@font-face{
-    font-family:"Inter Thin";
-    src: url(../../vendor/fonts/Inter-Thin.otf);
-}
-
-@font-face{
-    font-family:"Inter Verythin";
-    src: url(../../vendor/fonts/Inter-V.otf);
+    font-family:"Inter";
+    font-weight:900;
+    src: url(./Inter-900.woff) format("woff"),
+      url(./Inter-900.woff2) format("woff2");
 }
