@@ -5,7 +5,34 @@
 .footer{
     display: flex;
     justify-content:space-between;
-    margin: 92px auto 0;
+    margin: 92px auto 24px;
     min-width:1184px;
 
+}
+
+@media screen and (max-width:1380px){
+    .footer{
+     min-width:928px;   
+    }
+}
+
+@media screen and (max-width:1120px){
+    .footer{
+     min-width:720px;
+    }
+}
+
+@media screen and (max-width:875px){
+    .footer{
+        min-width:320px;
+        
+    }
+}
+
+@media screen and (max-width:400px){
+    .footer{
+        margin:64px 136px 24px 16px;
+        display:grid;
+
+    }
 }

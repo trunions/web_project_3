@@ -1,4 +1,15 @@
 .header__links{
-    display: grid;
-    grid-template: 1fr/1fr 1fr;
-    grid-gap: 18px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:72px;
+    font-size:24px;
+    line-height:117%;
+}
+
+@media screen and (max-width:725px){
+    .header__links{
+        font-size:18px;
+        line-height:133%;
+    }
+}

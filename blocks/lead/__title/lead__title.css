@@ -1,10 +1,10 @@
 .lead__title{
   font-size:96px;
-  margin: 0 auto 3% auto;
+  font-weight:900;
+  margin: 0 auto 3%;
   max-width: 720px;
   text-align: center;
   line-height:100px;
-  font-family: "inter extrabold", sans-serif;   
 }
 
 @media screen and (max-width:425px){
@@ -12,5 +12,6 @@
   .lead__title{
     font-size:40px;
     line-height:44px;
+    max-width:288px;
   }
 }

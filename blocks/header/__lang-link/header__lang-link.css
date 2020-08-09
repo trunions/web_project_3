@@ -2,3 +2,9 @@
     color:white;
     margin-right:0px;
 }
+
+
+.header__lang-link:hover{
+    text-decoration:none;
+
+}

@@ -1,5 +1,5 @@
 @import url(./__place/places__place.css);
-@import url(./__place/__place-two-lines/places__place-two-lines.css);
+@import url(./__place/__place_two-lines/places__place_two-lines.css);
 @import url(./__title/places__title.css);
 @import url(./__link-text/places__link-text.css);
 @import url(./__link/places__link.css);
@@ -11,3 +11,23 @@
 .places{
     margin: 100px 148px 80px 148px;
 }
+
+@media screen and (max-width:1024px){
+    .places{
+        max-width:928px;
+    }
+}
+
+@media screen and (max-width:786px){
+    .places{
+        max-width:100%;
+        margin:76px 24px 100px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .places{
+        margin:64px 0 0;
+    }
+}
+

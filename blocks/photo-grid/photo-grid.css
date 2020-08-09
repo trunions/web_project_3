@@ -6,5 +6,29 @@
     display: grid;
     grid-template: 1fr 1fr 1fr/1fr 1fr 1fr 1fr;
     grid-gap: 16px;
-    margin: 7% auto 0;
+    margin: 92px 48px 0;
+}
+
+@media screen and (max-width:1300px){
+    .photo-grid{
+        grid-template:1fr 1fr 1fr 1fr/1fr 1fr 1fr;
+        max-width:928px;
+        grid-gap:14px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .photo-grid{
+        grid-template:1fr 1fr 1fr 1fr 1fr/1fr 1fr;
+        max-width:720px
+    }
+}
+
+@media screen and (max-width:770px){
+    .photo-grid{
+        grid-template:1fr 1fr 1fr 1fr 1fr 1fr/1fr;
+        grid-gap:12px;
+        margin:64px auto 0;
+    
+    }
 }
