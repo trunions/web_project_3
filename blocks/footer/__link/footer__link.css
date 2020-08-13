@@ -6,15 +6,6 @@
     margin-right:18px;
 }
 
-.footer__link:last-child{
-    margin-right:0px;
-}
-
-@media screen and (max-width:400px){
-    .footer__link:last-child{
-      margin:0;
-  }
-}
 
 
 @media screen and (max-width:400px){

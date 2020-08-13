@@ -4,18 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
-    <link rel="stylesheet" href="./vendor/normalize.css">
     
     <title>From Portland to Portland</title>
   </head>
 
-  <body>
-      <div class="page">
+  <body class="page">
           <header class="header">
             <div class="header__container">
-              <img class="logo" src="./images/logo.png" alt="logo">
+              <img class="header__logo" src="./images/logo.png" alt="logo">
               <div class="header__links">
-                <a class ="header__lang-link" href="#">En</a>
+                <a class ="header__lang-link header__lang-link_underlined" href="#">En</a>
                 <a class ="header__lang-link" href="#">Es</a>
               </div>
             </div>
@@ -23,14 +21,16 @@
 
           <secton class="lead">
             <h1 class="lead__title">From Portland to Portland</h1>
-            <h2 class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</h2>
+            <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
+            <figure class="lead__image-container">
             <img class="lead__image" src="./images/mountains.jpg" alt="mountains">
-            <p class="lead__caption">Your journey starts here</p>
+            <figcaption class="lead__caption">Your journey starts here</figcaption>
+            </figure>
           </secton>
 
           <section class="intro">
             <h2 class="intro__title">Know the country you live in a little better</h2>
-            <h3 class ="intro__subtitle">That's exactly what we have arranged for you via this travel story</h3>
+            <p class ="intro__subtitle">That's exactly what we have arranged for you via this travel story</p>
             <p class="intro__text">Need more action and adventure in your life instead of the same old routine? From Portland, Maine to Portland, Oregon we're going to take you on an exciting journey through some unknown regions of your country. Leave the car at home and travel by bike starting in New England where it all began. You will pass through 12 beautiful states, covering a total of 3,600 miles, and accomplish 3 monumental missions. Partying and taking a selfie with a famous rock star, donating $1 to a billionaire to help eradicate polio in Africa, and even stopping by famous author Stephen King's house to say hi and asking him to sign your favorite book.</p>
             <ul class="intro__list">
               <li><span class="intro__span-accent">Distance (miles)</span> 3,644</li>
@@ -41,18 +41,20 @@
           </section>
 
           <section class="photo-grid">
-            <img class="photo-grid__item" src="./images/road.jpg" alt="road">
-            <img class="photo-grid__item" src="./images/lake.jpg" alt="lake">
-            <img class="photo-grid__item" src="./images/birds.jpg" alt="birds">
-            <img class="photo-grid__item" src="./images/forest.jpg" alt="forest">
-            <img class="photo-grid__item" src="./images/tree_lake.jpg" alt="tree lake">
-            <img class="photo-grid__item" src="./images/misty_hills.jpg" alt="misty hills">
-            <img class="photo-grid__item" src="./images/rocky_hill.jpg" alt="rocky hill">
-            <img class="photo-grid__item" src="./images/white_flower.jpg" alt="white flower">
-            <img class="photo-grid__item" src="./images/green_hills.jpg" alt="green hills">
-            <img class="photo-grid__item" src="./images/desert_lake.jpg" alt="desert lake">
-            <img class="photo-grid__item" src="./images/birds_on_wire.jpg" alt="birds on a powerline">
-            <img class="photo-grid__item" src="./images/desert_road.jpg" alt="desert road">
+            <ul class="photo-grid__list">
+              <li class="photo-grid__item"><img class="photo-grid__item" src="./images/road.jpg" alt="road"></li>
+              <li class="photo-grid__item"><img class="photo-grid__item" src="./images/lake.jpg" alt="lake"></li>
+              <li class="photo-grid__item"><img class="photo-grid__item" src="./images/birds.jpg" alt="birds"></li>
+              <li class="photo-grid__item"><img class="photo-grid__item" src="./images/forest.jpg" alt="forest"></li>
+              <li class="photo-grid__item"><img class="photo-grid__item" src="./images/tree_lake.jpg" alt="tree lake"></li>
+              <li class="photo-grid__item"><img class="photo-grid__item" src="./images/misty_hills.jpg" alt="misty hills"></li>
+              <li class="photo-grid__item"><img class="photo-grid__item" src="./images/rocky_hill.jpg" alt="rocky hill"></li>
+              <li class="photo-grid__item"><img class="photo-grid__item" src="./images/white_flower.jpg" alt="white flower"></li>
+              <li class="photo-grid__item"><img class="photo-grid__item" src="./images/green_hills.jpg" alt="green hills"></li>
+              <li class="photo-grid__item"><img class="photo-grid__item" src="./images/desert_lake.jpg" alt="desert lake"></li>
+              <li class="photo-grid__item"><img class="photo-grid__item" src="./images/birds_on_wire.jpg" alt="birds on a powerline"></li>
+              <li class="photo-grid__item"><img class="photo-grid__item" src="./images/desert_road.jpg" alt="desert road"></li>
+            </ul>
          </section>
 
          <section class="places">
@@ -70,7 +72,7 @@
               </div>
             </div>
 
-            <div class="places__place_two-lines">
+            <div class="places__place">
               <h2 class="places__title">New Hampshire</h2>
               <img class="places__image" src="./images/forest_river.jpg" alt="river in a forest">
               <div>
@@ -127,21 +129,20 @@
 
          <section class="cover">
            <a class="cover__link" href="#">
-             <h2 class="cover__title">Historic Route 66</h1>
+             <h2 class="cover__title">Historic Route 66</h2>
               <p class="cover__text">The Main Street of America from Santa Monica, Cal. to Chicago, Ill. within an iframe</p>
            </a>
          </section>
 
          <footer class="footer">
-           <div class="footer__link-list">
-            <a class="footer__link" href="https://yandex.com/maps">Maps</a>
-            <a class="footer__link" href="https://yandex.com/weather/moscow">Weather</a>
-            <a class="footer__link" href="https://www.any.do/">Calender</a>
-          </div>
+           <ul class="footer__link-list">
+            <li><a class="footer__link" href="https://yandex.com/maps">Maps</a></li>
+            <li><a class="footer__link" href="https://yandex.com/weather/moscow">Weather</a></li>
+            <li><a class="footer__link" href="https://www.any.do/">Calender</a></li>
+           </ul>
             
           <div>
-           <p class="footer__copyright">&copy 2020. Trista Runions</p>
+           <p class="footer__copyright">&copy; 2020. Trista Runions</p>
           </div>
         </footer>
-    </div>
   </body>
