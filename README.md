@@ -22,5 +22,7 @@ My project can be found at: https://trunions.github.io/web_project_3/
 
  8/13/2020: I improved the code by deleting unneeded code and cleaning up the HTML. I recoded the photo-grid and footer block to be more efficient. 
 
+ 8/14/2020: I cleaned up some code I forgot about yesterday and wrote a few more media queries to make my website more responsive. 
 
-* Thank you to whoever gets to review my project! I look forward to your notes!
+
+* Thank you Semyon for reviewing my project. Your feedback is always helpful! 
